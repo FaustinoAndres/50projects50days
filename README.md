@@ -3,8 +3,8 @@
 
 |  #  |            Project             | Live Demo |
 | :-: | :----------------------------: | :-------: |
-| 01  | [Expanding Cards]()            | [Demo](https://faustinoandres.github.io/Day01-expanding-cards/)|
-| 02  | [Progress Steps]()             | [Demo]()|
+| 01  | [Expanding Cards](https://github.com/FaustinoAndres/50projects50days/tree/main/Day01)| [Demo](https://faustinoandres.github.io/Day01-expanding-cards/)|
+| 02  | [Progress Steps](https://github.com/FaustinoAndres/50projects50days/tree/main/Day02) | [Demo](https://reverent-babbage-067e70.netlify.app/)|
 
 
 
