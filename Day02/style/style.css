@@ -20,7 +20,6 @@ body {
 }
 
 div.container {
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -31,7 +30,6 @@ div.container div.progress__container {
     margin-bottom: 30px;
     max-width: 100%;
     width: 350px;
-    border: 1px solid green;
 }
 
 div.container div.progress__container::before {
