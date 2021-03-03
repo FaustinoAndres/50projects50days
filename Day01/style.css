@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.container .card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 5rem;
+    color: #ffffff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 1rem;
+    position: relative;
+    transition: all 400ms ease-in;
+}
+
+.container .card h3 {
+    font-size: 2.4rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    margin: 0;
+    opacity: 0;
+}
+
+.card.active {
+    flex: 5;
+}
+
+.card.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.container .first.card {
+    background-image: url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+
+.container .second.card {
+    background-image: url('https://images.unsplash.com/photo-1460411794035-42aac080490a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+}
+
+.container .third.card {
+    background-image: url('https://images.unsplash.com/photo-1504179175816-14bdcc59eec2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+}
+
+.container .fourth.card {
+    background-image: url('https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+}
+
+.container .fifth.card {
+    background-image: url('https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
+}
